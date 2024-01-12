@@ -1,0 +1,1 @@
+3*&!Glücks&!Legendär&!Mysteriös&!Erlöst&!Crypto&!Schillernd&!XXL&!XXS&!Jahr2016&!Jahr2017&!Jahr2018&!Jahr2019&!Jahr2020&!Jahr2021&!Jahr2022&!Jahr2023&!#2024&!@spezial&!Kumpel2&!Kumpel3&!Kumpel4&!Kumpel5&!Raid&!Fernraid&!Ultrabestien&!#Evo&!#trade&!#Special&!#Verschicken&!#Behalten&!#Home&!#Mega&!Favorit&!#PikaPika
