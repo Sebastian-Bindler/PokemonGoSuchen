@@ -7,6 +7,7 @@ Sebi:
 - Perlina
 - Trade
 - PVPtrade
+- GlücksCheck
 - Tradedelete
 - Delete
 
