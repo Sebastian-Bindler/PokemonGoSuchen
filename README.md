@@ -19,6 +19,7 @@ Edward:
 - LuckyGalar
 - Trade
 - PVPTrade
+- HundoTrade
 - Perlina
 - DeleteTrade
 - Delete
