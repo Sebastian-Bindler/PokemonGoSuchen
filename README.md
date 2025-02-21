@@ -10,6 +10,7 @@ Sebi:
 - GlücksCheck
 - Tradedelete
 - Delete
+- NonTag
 
 Edward:
 - Hundo
@@ -17,10 +18,9 @@ Edward:
 - PVP
 - Ratten&Fische
 - Lucky
-- LuckyGalar
 - Trade
-- PVPTrade
 - HundoTrade
 - Perlina
 - DeleteTrade
 - Delete
+- NonTag
