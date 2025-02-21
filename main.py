@@ -81,7 +81,7 @@ if __name__ == '__main__':
     f.write(ratandfish)
     f.close()
     f = open( 'sebi/5Perlina.txt', 'w' )
-    f.write(luckyPerlina + disableDE)
+    f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
     f = open( 'sebi/6Trade.txt', 'w' )
     f.write(tradeSebi + disableDE)
@@ -137,7 +137,7 @@ if __name__ == '__main__':
     f.close()
     
     f = open( 'Edward/8Perlina.txt', 'w' )
-    f.write(luckyPerlina + disableDE)
+    f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
 
     """
