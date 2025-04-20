@@ -104,7 +104,7 @@ if __name__ == '__main__':
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
     f = open( 'sebi/6Trade.txt', 'w' )
-    f.write(tradeSebi + luckyEdward + hundoEdward + disableDE)
+    f.write(tradeSebi + "," + luckyEdward + "," + hundoEdward + disableDE)
     f.close()
     #f = open( 'sebi/7PvpTrade.txt', 'w' )
     #f.write(pvpDE + disableDE)
