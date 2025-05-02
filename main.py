@@ -140,71 +140,71 @@ if __name__ == '__main__':
     
  #Edward
 
-    f = open( 'Edward/1Hundo.txt', 'w' )
+    f = open( 'edward/1Hundo.txt', 'w' )
     f.write(hundo)
     f.close()
-    f = open( 'Edward/2Fakehundos.txt', 'w' )
+    f = open( 'edward/2Fakehundos.txt', 'w' )
     f.write(fakehundosDE)
     f.close()
-    f = open( 'Edward/3PVP.txt', 'w' )
+    f = open( 'edward/3PVP.txt', 'w' )
     f.write(pvpDE)
     f.close()
-    f = open( 'Edward/4Ratten&Fische.txt', 'w' )
+    f = open( 'edward/4Ratten&Fische.txt', 'w' )
     ratandfish = ratandfish + disableDE
     ratandfish = ratandfish.replace("!XXL&!XXS&", "")
     f.write(ratandfish)
     f.close()
     
-    f = open( 'Edward/5LuckySebi.txt', 'w' )
+    f = open( 'edward/5LuckySebi.txt', 'w' )
     f.write(luckySebi + disableDE)
     f.close()
     
-    f = open( 'Edward/6Trade.txt', 'w' )
+    f = open( 'edward/6Trade.txt', 'w' )
     f.write(tradeEdward + disableDE)
     f.close()
     
-    f = open( 'Edward/7HundoTrade.txt', 'w' )
+    f = open( 'edward/7HundoTrade.txt', 'w' )
     f.write(hundoSebi + disableDE)
     f.close()
     
-    f = open( 'Edward/8Perlina.txt', 'w' )
+    f = open( 'edward/8Perlina.txt', 'w' )
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
 
     """
-    f = open( 'Edward/7PvpTrade.txt', 'w' )
+    f = open( 'edward/7PvpTrade.txt', 'w' )
     f.write(pvpDE + disableDE)
     f.close()
     """
 	
-    f = open( 'Edward/8LuckyCheck.txt', 'w' )
+    f = open( 'edward/8LuckyCheck.txt', 'w' )
     f.write(luckyEdward + luckyCheck)
     f.close()
 
 
-    f = open( 'Edward/9DeleteTrade.txt', 'w' )
+    f = open( 'edward/9DeleteTrade.txt', 'w' )
     DeleteTrade = disableDE.replace("Entfernung0-101&","")
     DeleteTrade = DeleteTrade.replace("!Jahr2016&!Jahr2017&!Jahr2018&!Jahr2019&!Jahr2020&!Jahr2021&!Jahr2022&!Jahr2023&!Jahr2024&","")
     DeleteTrade = DeleteTrade.replace("!Getauscht","Getauscht")
     DeleteTrade = DeleteTrade[1:]
     f.write(DeleteTrade)
     f.close() 
-    f = open( 'Edward/10Delete.txt', 'w' )
+    f = open( 'edward/10Delete.txt', 'w' )
     f.write(disableDE)
     f.close()
-    f = open( 'Edward/11NonTag.txt', 'w' )
+    f = open( 'edward/11NonTag.txt', 'w' )
     f.write("!#")
     f.close()
-    f = open( 'Edward/13XXL.txt', 'w' )
+    f = open( 'edward/13XXL.txt', 'w' )
     f.write(xxlEdward + "&XXL")
     f.close()
-    f = open( 'Edward/14XXS.txt', 'w' )
+    f = open( 'edward/14XXS.txt', 'w' )
     f.write(xxsEdward + "&XXS")
     f.close()
-    f = open( 'Edward/15XXLSebi.txt', 'w' )
+    f = open( 'edward/15XXLSebi.txt', 'w' )
     f.write(xxlSebi + "&XXL&!getauscht")
     f.close()
-    f = open( 'Edward/16XXSSebi.txt', 'w' )
+    f = open( 'edward/16XXSSebi.txt', 'w' )
     f.write(xxsSebi + "&XXS&!getauscht")
     f.close()
     
