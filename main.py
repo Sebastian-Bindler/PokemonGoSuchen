@@ -10,209 +10,244 @@ import os
 if __name__ == '__main__': 
     
 
-    with open('relation/hundoSebi.txt','r') as file:
+    with open('input/sebipnwed/hundo.txt','r') as file:
         hundoSebi = " ".join(line.rstrip() for line in file)
         print(hundoSebi)
-    with open('relation/hundoEdward.txt','r') as file:
+    with open('input/edwardxelric/hundo.txt','r') as file:
         hundoEdward = " ".join(line.rstrip() for line in file)
         print(hundoEdward)
-    with open('relation/hundoPerlina.txt','r') as file:
+    with open('input/perlibug/hundo.txt','r') as file:
         hundoPerlina = " ".join(line.rstrip() for line in file)
         print(hundoPerlina)
+    with open('input/bwwl/hundo.txt','r') as file:
+        hundoBwwl = " ".join(line.rstrip() for line in file)
+        print(hundoPerlina)
         
-    with open('relation/tradeSebi.txt','r') as file:
-        tradeSebi = " ".join(line.rstrip() for line in file)
-        print(tradeSebi)
-    with open('relation/tradeEdward.txt','r') as file:
-        tradeEdward = " ".join(line.rstrip() for line in file)
-        print(tradeEdward)
-    with open('relation/tradePerlina.txt','r') as file:
-        tradePerlina = " ".join(line.rstrip() for line in file)
-        print(tradePerlina)
+    with open('input/sebipnwed/candy.txt','r') as file:
+        candySebi = " ".join(line.rstrip() for line in file)
+        print(candySebi)
+    with open('input/edwardxelric/candy.txt','r') as file:
+        candyEdward = " ".join(line.rstrip() for line in file)
+        print(candyEdward)
+    with open('input/perlibug/candy.txt','r') as file:
+        candyPerlina = " ".join(line.rstrip() for line in file)
+        print(candyPerlina)
+    with open('input/bwwl/candy.txt','r') as file:
+        candyBwwl = " ".join(line.rstrip() for line in file)
+        print(candyBwwl)
         
-    with open('relation/luckySebi.txt','r') as file:
+    with open('input/sebipnwed/lucky.txt','r') as file:
         luckySebi = " ".join(line.rstrip() for line in file)
         print(luckySebi)
-    with open('relation/luckyEdward.txt','r') as file:
+    with open('input/edwardxelric/lucky.txt','r') as file:
         luckyEdward = " ".join(line.rstrip() for line in file)
         print(luckyEdward)
-    with open('relation/luckyPerlina.txt','r') as file:
+    with open('input/perlibug/lucky.txt','r') as file:
+        luckyPerlina = " ".join(line.rstrip() for line in file)
+        print(luckyPerlina)
+    with open('input/bwwl/lucky.txt','r') as file:
         luckyPerlina = " ".join(line.rstrip() for line in file)
         print(luckyPerlina)
         
-    with open('relation/hundo.txt','r') as file:
+    with open('input/relation/hundo.txt','r') as file:
         hundo = " ".join(line.rstrip() for line in file)
         print(hundo)
-    with open('relation/fakehundosDE.txt','r') as file:
+    with open('input/relation/fakehundosDE.txt','r') as file:
         fakehundosDE = " ".join(line.rstrip() for line in file)
         print(fakehundosDE)
-    with open('relation/pvpDE.txt','r') as file:
+    with open('input/relation/pvpDE.txt','r') as file:
         pvpDE = " ".join(line.rstrip() for line in file)
         print(pvpDE) 
-    with open('relation/ratandfish.txt','r') as file:
+    with open('input/relation/ratandfish.txt','r') as file:
         ratandfish = " ".join(line.rstrip() for line in file)
         print(ratandfish)
-    with open('relation/luckyCheck.txt','r') as file:
+    with open('input/relation/luckyCheck.txt','r') as file:
         luckyCheck = " ".join(line.rstrip() for line in file)
         print(luckyCheck)
         
-    with open('relation/disableDE.txt','r') as file:
+    with open('input/relation/disableDE.txt','r') as file:
         disableDE = " ".join(line.rstrip() for line in file)
         print(disableDE) 
-    with open('relation/disableEN.txt','r') as file:
+    with open('input/relation/disableEN.txt','r') as file:
         disableEN = " ".join(line.rstrip() for line in file)
         print(disableEN)
         
-    with open('relation/xxlSebi.txt','r') as file:
+    with open('input/sebipnwed/xxl.txt','r') as file:
         xxlSebi = " ".join(line.rstrip() for line in file)
-        print(xxlSebi) 
-    with open('relation/xxsSebi.txt','r') as file:
-        xxsSebi = " ".join(line.rstrip() for line in file)
-        print(xxsSebi) 
-    with open('relation/xxlEdward.txt','r') as file:
+        print(xxlSebi)
+    with open('input/edwardxelric/xxl.txt','r') as file:
         xxlEdward = " ".join(line.rstrip() for line in file)
-        print(xxlEdward) 
-    with open('relation/xxsEdward.txt','r') as file:
+        print(xxlEdward)
+    with open('input/edwardxelric/xxl.txt','r') as file:
+        xxlPerlibug = " ".join(line.rstrip() for line in file)
+        print(xxlPerlibug)
+    with open('input/edwardxelric/xxl.txt','r') as file:
+        xxlBwwl = " ".join(line.rstrip() for line in file)
+        print(xxlBwwl)        
+        
+        
+    with open('input/sebipnwed/xxs.txt','r') as file:
+        xxsSebi = " ".join(line.rstrip() for line in file)
+        print(xxsSebi)
+    with open('input/edwardxelric/xxs.txt','r') as file:
         xxsEdward = " ".join(line.rstrip() for line in file)
         print(xxsEdward) 
+    with open('input/edwardxelric/xxs.txt','r') as file:
+        xxsPerlibug = " ".join(line.rstrip() for line in file)
+        print(xxsPerlibug) 
+    with open('input/edwardxelric/xxs.txt','r') as file:
+        xxsBwwl = " ".join(line.rstrip() for line in file)
+        print(xxsBwwl) 
+
+
         
-    shutil.rmtree('sebi')
-    os.mkdir("sebi")
-    shutil.rmtree('edward')
-    os.mkdir("edward")
-    shutil.rmtree('perlina')
-    os.mkdir("perlina")
+    shutil.rmtree('output/sebipwned')
+    os.mkdir("output/sebipwned")
+    shutil.rmtree('output/edwardxelric')
+    os.mkdir("output/edwardxelric")
+    shutil.rmtree('output/perlibug')
+    os.mkdir("output/perlibug")
+    shutil.rmtree('output/bwwl')
+    os.mkdir("output/bwwl")
         
         
 #Sebi
 
-    f = open( 'sebi/1Hundo.txt', 'w' )
+    f = open( 'output/sebipwned/1Hundo.txt', 'w' )
     f.write(hundo)
     f.close()
-    f = open( 'sebi/2Fakehundos.txt', 'w' )
+    f = open( 'output/sebipwned/2Fakehundos.txt', 'w' )
     f.write(fakehundosDE)
     f.close()
-    f = open( 'sebi/3PVP.txt', 'w' )
+    f = open( 'output/sebipwned/3PVP.txt', 'w' )
     f.write(pvpDE)
     f.close()
-    f = open( 'sebi/4Ratten&Fische.txt', 'w' )
+    f = open( 'output/sebipwned/4Ratten&Fische.txt', 'w' )
     ratandfish = ratandfish + disableDE
     ratandfish = ratandfish.replace("!XXL&!XXS&", "")
     f.write(ratandfish)
     f.close()
-    f = open( 'sebi/5Perlina.txt', 'w' )
+    f = open( 'output/sebipwned/5Perlina.txt', 'w' )
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
-    f = open( 'sebi/6Trade.txt', 'w' )
-    f.write(tradeSebi + "," + luckyEdward + "," + hundoEdward + disableDE)
+    f = open( 'output/sebipwned/6Trade.txt', 'w' )
+    f.write(candySebi + "," + luckyEdward + "," + hundoEdward + disableDE)
     f.close()
-    #f = open( 'sebi/7PvpTrade.txt', 'w' )
+    #f = open( 'output/sebipwned/7PvpTrade.txt', 'w' )
     #f.write(pvpDE + disableDE)
    # f.close()
-    f = open( 'sebi/7LuckyCheck.txt', 'w' )
+    f = open( 'output/sebipwned/7LuckyCheck.txt', 'w' )
     f.write(luckySebi + luckyCheck)
     f.close()
-    f = open( 'sebi/8DeleteTrade.txt', 'w' )
+    f = open( 'output/sebipwned/8DeleteTrade.txt', 'w' )
     DeleteTrade = disableDE.replace("Entfernung0-101&","")
     DeleteTrade = DeleteTrade.replace("!Jahr2016&!Jahr2017&!Jahr2018&!Jahr2019&!Jahr2020&!Jahr2021&!Jahr2022&!Jahr2023&!Jahr2024&","")
     DeleteTrade = DeleteTrade.replace("!Getauscht","Getauscht")
     DeleteTrade = DeleteTrade[1:]
     f.write(DeleteTrade)
     f.close() 
-    f = open( 'sebi/9Delete.txt', 'w' )
+    f = open( 'output/sebipwned/9Delete.txt', 'w' )
     f.write(disableDE)
     f.close()
-    f = open( 'sebi/10XXL.txt', 'w' )
+    f = open( 'output/sebipwned/10XXL.txt', 'w' )
     f.write(xxlSebi + "&XXL")
     f.close()
-    f = open( 'sebi/11XXS.txt', 'w' )
+    f = open( 'output/sebipwned/11XXS.txt', 'w' )
     f.write(xxsSebi + "&XXS")
     f.close()
-    f = open( 'sebi/13XXLEdward.txt', 'w' )
+    f = open( 'output/sebipwned/13XXLEdward.txt', 'w' )
     f.write(xxlEdward + "&XXL&!getauscht")
     f.close()
-    f = open( 'sebi/14XXSEdward.txt', 'w' )
+    f = open( 'output/sebipwned/14XXSEdward.txt', 'w' )
     f.write(xxsEdward + "&XXS&!getauscht")
     f.close()
-    f = open( 'sebi/12NonTag.txt', 'w' )
+    f = open( 'output/sebipwned/12NonTag.txt', 'w' )
     f.write("!#")
     f.close()
     
  #Edward
 
-    f = open( 'edward/1Hundo.txt', 'w' )
+    f = open( 'output/edwardxelric/1Hundo.txt', 'w' )
     f.write(hundo)
     f.close()
-    f = open( 'edward/2Fakehundos.txt', 'w' )
+    f = open( 'output/edwardxelric/2Fakehundos.txt', 'w' )
     f.write(fakehundosDE)
     f.close()
-    f = open( 'edward/3PVP.txt', 'w' )
+    f = open( 'output/edwardxelric/3PVP.txt', 'w' )
     f.write(pvpDE)
     f.close()
-    f = open( 'edward/4Ratten&Fische.txt', 'w' )
+    f = open( 'output/edwardxelric/4Ratten&Fische.txt', 'w' )
     ratandfish = ratandfish + disableDE
     ratandfish = ratandfish.replace("!XXL&!XXS&", "")
     f.write(ratandfish)
     f.close()
     
-    f = open( 'edward/5LuckySebi.txt', 'w' )
+    f = open( 'output/edwardxelric/5LuckySebi.txt', 'w' )
     f.write(luckySebi + disableDE)
     f.close()
     
-    f = open( 'edward/6Trade.txt', 'w' )
-    f.write(tradeEdward + disableDE)
+    f = open( 'output/edwardxelric/6Trade.txt', 'w' )
+    f.write(candyEdward + disableDE)
     f.close()
     
-    f = open( 'edward/7HundoTrade.txt', 'w' )
+    f = open( 'output/edwardxelric/7HundoTrade.txt', 'w' )
     f.write(hundoSebi + disableDE)
     f.close()
     
-    f = open( 'edward/8Perlina.txt', 'w' )
+    f = open( 'output/edwardxelric/8Perlina.txt', 'w' )
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
 
     """
-    f = open( 'edward/7PvpTrade.txt', 'w' )
+    f = open( 'output/edwardxelric/7PvpTrade.txt', 'w' )
     f.write(pvpDE + disableDE)
     f.close()
     """
 	
-    f = open( 'edward/8LuckyCheck.txt', 'w' )
+    f = open( 'output/edwardxelric/8LuckyCheck.txt', 'w' )
     f.write(luckyEdward + luckyCheck)
     f.close()
 
 
-    f = open( 'edward/9DeleteTrade.txt', 'w' )
+    f = open( 'output/edwardxelric/9DeleteTrade.txt', 'w' )
     DeleteTrade = disableDE.replace("Entfernung0-101&","")
     DeleteTrade = DeleteTrade.replace("!Jahr2016&!Jahr2017&!Jahr2018&!Jahr2019&!Jahr2020&!Jahr2021&!Jahr2022&!Jahr2023&!Jahr2024&","")
     DeleteTrade = DeleteTrade.replace("!Getauscht","Getauscht")
     DeleteTrade = DeleteTrade[1:]
     f.write(DeleteTrade)
     f.close() 
-    f = open( 'edward/10Delete.txt', 'w' )
+    f = open( 'output/edwardxelric/10Delete.txt', 'w' )
     f.write(disableDE)
     f.close()
-    f = open( 'edward/11NonTag.txt', 'w' )
+    f = open( 'output/edwardxelric/11NonTag.txt', 'w' )
     f.write("!#")
     f.close()
-    f = open( 'edward/13XXL.txt', 'w' )
+    f = open( 'output/edwardxelric/13XXL.txt', 'w' )
     f.write(xxlEdward + "&XXL")
     f.close()
-    f = open( 'edward/14XXS.txt', 'w' )
+    f = open( 'output/edwardxelric/14XXS.txt', 'w' )
     f.write(xxsEdward + "&XXS")
     f.close()
-    f = open( 'edward/15XXLSebi.txt', 'w' )
+    f = open( 'output/edwardxelric/15XXLSebi.txt', 'w' )
     f.write(xxlSebi + "&XXL&!getauscht")
     f.close()
-    f = open( 'edward/16XXSSebi.txt', 'w' )
+    f = open( 'output/edwardxelric/16XXSSebi.txt', 'w' )
     f.write(xxsSebi + "&XXS&!getauscht")
     f.close()
     
-    f = open( 'perlina/KlausiesHundoAndLucky.txt', 'w' )
+    f = open( 'output/perlibug/KlausiesHundoAndLucky.txt', 'w' )
     f.write(hundoSebi + "," + luckySebi + disableEN)
     f.close()
     
-    f = open( 'perlina/EdwardHundoAndLucky.txt', 'w' )
+    f = open( 'output/perlibug/EdwardHundoAndLucky.txt', 'w' )
+    f.write(hundoEdward + "," + luckyEdward + disableEN)
+    f.close()
+    
+    f = open( 'output/bwwl/KlausiesHundoAndLucky.txt', 'w' )
+    f.write(hundoSebi + "," + luckySebi + disableEN)
+    f.close()
+    
+    f = open( 'output/bwwl/EdwardHundoAndLucky.txt', 'w' )
     f.write(hundoEdward + "," + luckyEdward + disableEN)
     f.close()
     
