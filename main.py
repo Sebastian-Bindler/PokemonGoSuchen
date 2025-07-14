@@ -64,6 +64,10 @@ if __name__ == '__main__':
     with open('input/relation/luckyCheck.txt','r') as file:
         luckyCheck = " ".join(line.rstrip() for line in file)
         print(luckyCheck)
+    with open('input/relation/level1.txt','r') as file:
+        level1 = " ".join(line.rstrip() for line in file)
+        print(level1)
+    
         
     with open('input/relation/disableDE.txt','r') as file:
         disableDE = " ".join(line.rstrip() for line in file)
@@ -99,7 +103,9 @@ if __name__ == '__main__':
         xxsBwwl = " ".join(line.rstrip() for line in file)
         print(xxsBwwl) 
 
-
+    with open('input/perlibug/level1.txt','r') as file:
+        level1Perlina = " ".join(line.rstrip() for line in file)
+        print(level1Perlina)
         
     shutil.rmtree('output/sebipwned')
     os.mkdir("output/sebipwned")
@@ -164,6 +170,9 @@ if __name__ == '__main__':
     f = open( 'output/sebipwned/12NonTag.txt', 'w' )
     f.write("!#")
     f.close()
+    f = open( 'output/sebipwned/Level1Perlina.txt', 'w' )
+    f.write(level1Perlina + level1)
+    f.close()
     
  #Edward
 
@@ -206,6 +215,10 @@ if __name__ == '__main__':
 	
     f = open( 'output/edwardxelric/8LuckyCheck.txt', 'w' )
     f.write(luckyEdward + luckyCheck)
+    f.close()
+    
+    f = open( 'output/edwardxelric/Level1Perlina.txt', 'w' )
+    f.write(level1Perlina + level1)
     f.close()
 
 
