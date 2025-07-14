@@ -171,7 +171,7 @@ if __name__ == '__main__':
     f.write("!#")
     f.close()
     f = open( 'output/sebipwned/Level1Perlina.txt', 'w' )
-    f.write(level1Perlina + level1)
+    f.write(level1Perlina + disableDE + level1)
     f.close()
     
  #Edward
@@ -218,7 +218,7 @@ if __name__ == '__main__':
     f.close()
     
     f = open( 'output/edwardxelric/Level1Perlina.txt', 'w' )
-    f.write(level1Perlina + level1)
+    f.write(level1Perlina + disableDE + level1)
     f.close()
 
 
