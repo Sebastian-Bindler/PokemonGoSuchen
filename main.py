@@ -46,8 +46,8 @@ if __name__ == '__main__':
         luckyPerlina = " ".join(line.rstrip() for line in file)
         print(luckyPerlina)
     with open('input/bwwl/lucky.txt','r') as file:
-        luckyPerlina = " ".join(line.rstrip() for line in file)
-        print(luckyPerlina)
+        luckyBwwl = " ".join(line.rstrip() for line in file)
+        print(luckyBwwl)
         
     with open('input/relation/hundo.txt','r') as file:
         hundo = " ".join(line.rstrip() for line in file)
@@ -144,6 +144,9 @@ if __name__ == '__main__':
     f = open( 'output/sebipwned/perlina.txt', 'w' )
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
+    f = open( 'output/sebipwned/bwwl.txt', 'w' )
+    f.write(hundoBwwl + "," + luckyBwwl + disableDE)
+    f.close()
     f = open( 'output/sebipwned/xlcandy.txt', 'w' )
     f.write(disableDE.replace("4*", "4*" + candySebi))
     f.close()
@@ -185,6 +188,9 @@ if __name__ == '__main__':
     f.close()
     f = open( 'output/sebipwned/check/lucky.txt', 'w' )
     f.write(hundoSebi + luckyCheck)
+    f.close()
+    f = open( 'output/sebipwned/km.txt', 'w' )
+    f.write(disableDE.replace("&Entfernung0-101", "!Entfernung0-101"))
     f.close()
     
  #Edward
