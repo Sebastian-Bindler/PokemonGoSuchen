@@ -67,7 +67,9 @@ if __name__ == '__main__':
     with open('input/relation/level1.txt','r') as file:
         level1 = " ".join(line.rstrip() for line in file)
         print(level1)
-    
+    with open('input/relation/countCandyXL.txt','r') as file:
+        countCandyXL = " ".join(line.rstrip() for line in file)
+        print(countCandyXL)    
         
     with open('input/relation/disableDE.txt','r') as file:
         disableDE = " ".join(line.rstrip() for line in file)
@@ -75,6 +77,10 @@ if __name__ == '__main__':
     with open('input/relation/disableEN.txt','r') as file:
         disableEN = " ".join(line.rstrip() for line in file)
         print(disableEN)
+        
+        
+        
+        
         
     with open('input/sebipnwed/xxl.txt','r') as file:
         xxlSebi = " ".join(line.rstrip() for line in file)
@@ -109,6 +115,7 @@ if __name__ == '__main__':
         
     shutil.rmtree('output/sebipwned')
     os.mkdir("output/sebipwned")
+    os.mkdir("output/sebipwned/check")
     shutil.rmtree('output/edwardxelric')
     os.mkdir("output/edwardxelric")
     shutil.rmtree('output/perlibug')
@@ -119,59 +126,65 @@ if __name__ == '__main__':
         
 #Sebi
 
-    f = open( 'output/sebipwned/1Hundo.txt', 'w' )
+    f = open( 'output/sebipwned/hundo.txt', 'w' )
     f.write(hundo)
     f.close()
-    f = open( 'output/sebipwned/2Fakehundos.txt', 'w' )
+    f = open( 'output/sebipwned/fakehundos.txt', 'w' )
     f.write(fakehundosDE)
     f.close()
-    f = open( 'output/sebipwned/3PVP.txt', 'w' )
+    f = open( 'output/sebipwned/pvp.txt', 'w' )
     f.write(pvpDE)
     f.close()
-    f = open( 'output/sebipwned/4Ratten&Fische.txt', 'w' )
+    f = open( 'output/sebipwned/ratandfish.txt', 'w' )
     ratandfish = ratandfish + disableDE
     ratandfish = ratandfish.replace("!XXL&!XXS&", "")
     f.write(ratandfish)
     f.close()
-    f = open( 'output/sebipwned/5Perlina.txt', 'w' )
+    
+    f = open( 'output/sebipwned/perlina.txt', 'w' )
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
-    f = open( 'output/sebipwned/6Trade.txt', 'w' )
-    f.write(candySebi + "," + luckyEdward + "," + hundoEdward + disableDE)
+    f = open( 'output/sebipwned/xlcandy.txt', 'w' )
+    f.write(disableDE.replace("4*", "4*" + candySebi))
     f.close()
-    #f = open( 'output/sebipwned/7PvpTrade.txt', 'w' )
-    #f.write(pvpDE + disableDE)
-   # f.close()
-    f = open( 'output/sebipwned/7LuckyCheck.txt', 'w' )
-    f.write(luckySebi + luckyCheck)
+    f = open( 'output/sebipwned/eddy.txt', 'w' )
+    f.write(luckyEdward + "," + hundoEdward + disableDE)
     f.close()
-    f = open( 'output/sebipwned/8DeleteTrade.txt', 'w' )
+
+    f = open( 'output/sebipwned/deletetrade.txt', 'w' )
     DeleteTrade = disableDE.replace("Entfernung0-101&","")
     DeleteTrade = DeleteTrade.replace("!Jahr2016&!Jahr2017&!Jahr2018&!Jahr2019&!Jahr2020&!Jahr2021&!Jahr2022&!Jahr2023&!Jahr2024&","")
     DeleteTrade = DeleteTrade.replace("!Getauscht","Getauscht")
     DeleteTrade = DeleteTrade[1:]
     f.write(DeleteTrade)
     f.close() 
-    f = open( 'output/sebipwned/9Delete.txt', 'w' )
+    f = open( 'output/sebipwned/delete.txt', 'w' )
     f.write(disableDE)
     f.close()
-    f = open( 'output/sebipwned/10XXL.txt', 'w' )
+    f = open( 'output/sebipwned/check/xxl.txt', 'w' )
     f.write(xxlSebi + "&XXL")
     f.close()
-    f = open( 'output/sebipwned/11XXS.txt', 'w' )
+    f = open( 'output/sebipwned/check/xxs.txt', 'w' )
     f.write(xxsSebi + "&XXS")
     f.close()
-    f = open( 'output/sebipwned/13XXLEdward.txt', 'w' )
+    f = open( 'output/sebipwned/xxleddy.txt', 'w' )
     f.write(xxlEdward + "&XXL&!getauscht")
     f.close()
-    f = open( 'output/sebipwned/14XXSEdward.txt', 'w' )
+    f = open( 'output/sebipwned/xxseddy.txt', 'w' )
     f.write(xxsEdward + "&XXS&!getauscht")
     f.close()
-    f = open( 'output/sebipwned/12NonTag.txt', 'w' )
+    f = open( 'output/sebipwned/nontag.txt', 'w' )
     f.write("!#")
     f.close()
-    f = open( 'output/sebipwned/Level1Perlina.txt', 'w' )
+    f = open( 'output/sebipwned/perlinalevel1.txt', 'w' )
     f.write(level1Perlina + disableDE + level1)
+    f.close()
+    
+    f = open( 'output/sebipwned/check/hundo.txt', 'w' )
+    f.write(hundoSebi + "&4*")
+    f.close()
+    f = open( 'output/sebipwned/check/lucky.txt', 'w' )
+    f.write(hundoSebi + luckyCheck)
     f.close()
     
  #Edward
@@ -220,6 +233,8 @@ if __name__ == '__main__':
     f = open( 'output/edwardxelric/Level1Perlina.txt', 'w' )
     f.write(level1Perlina + disableDE + level1)
     f.close()
+    
+    
 
 
     f = open( 'output/edwardxelric/9DeleteTrade.txt', 'w' )
