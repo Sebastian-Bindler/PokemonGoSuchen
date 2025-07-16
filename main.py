@@ -187,7 +187,7 @@ if __name__ == '__main__':
     f.write(hundoSebi + "&4*")
     f.close()
     f = open( 'output/sebipwned/check/lucky.txt', 'w' )
-    f.write(hundoSebi + luckyCheck)
+    f.write(luckySebi + luckyCheck)
     f.close()
     f = open( 'output/sebipwned/km.txt', 'w' )
     f.write(disableDE.replace("&Entfernung0-101", "!Entfernung0-101"))
