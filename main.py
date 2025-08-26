@@ -7,10 +7,13 @@ Created on Fri Feb 21 21:48:58 2025
 import shutil
 import os
 
+from inc import sebipwned
+
 if __name__ == '__main__': 
     
-
-    with open('input/sebipnwed/hundo.txt','r') as file:
+    
+    
+    with open('input/sebipwned/hundo.txt','r') as file:
         hundoSebi = " ".join(line.rstrip() for line in file)
         print(hundoSebi)
     with open('input/edwardxelric/hundo.txt','r') as file:
@@ -23,7 +26,7 @@ if __name__ == '__main__':
         hundoBwwl = " ".join(line.rstrip() for line in file)
         print(hundoPerlina)
         
-    with open('input/sebipnwed/candy.txt','r') as file:
+    with open('input/sebipwned/candy.txt','r') as file:
         candySebi = " ".join(line.rstrip() for line in file)
         print(candySebi)
     with open('input/edwardxelric/candy.txt','r') as file:
@@ -36,7 +39,7 @@ if __name__ == '__main__':
         candyBwwl = " ".join(line.rstrip() for line in file)
         print(candyBwwl)
         
-    with open('input/sebipnwed/lucky.txt','r') as file:
+    with open('input/sebipwned/lucky.txt','r') as file:
         luckySebi = " ".join(line.rstrip() for line in file)
         print(luckySebi)
     with open('input/edwardxelric/lucky.txt','r') as file:
@@ -82,7 +85,7 @@ if __name__ == '__main__':
         
         
         
-    with open('input/sebipnwed/xxl.txt','r') as file:
+    with open('input/sebipwned/xxl.txt','r') as file:
         xxlSebi = " ".join(line.rstrip() for line in file)
         print(xxlSebi)
     with open('input/edwardxelric/xxl.txt','r') as file:
@@ -96,7 +99,7 @@ if __name__ == '__main__':
         print(xxlBwwl)        
         
         
-    with open('input/sebipnwed/xxs.txt','r') as file:
+    with open('input/sebipwned/xxs.txt','r') as file:
         xxsSebi = " ".join(line.rstrip() for line in file)
         print(xxsSebi)
     with open('input/edwardxelric/xxs.txt','r') as file:
@@ -116,6 +119,7 @@ if __name__ == '__main__':
     shutil.rmtree('output/sebipwned')
     os.mkdir("output/sebipwned")
     os.mkdir("output/sebipwned/check")
+    os.mkdir("output/sebipwned/test")
     shutil.rmtree('output/edwardxelric')
     os.mkdir("output/edwardxelric")
     shutil.rmtree('output/perlibug')
@@ -285,8 +289,7 @@ if __name__ == '__main__':
     f.write(hundoEdward + "," + luckyEdward + disableEN)
     f.close()
     
-    
-    
+
     
     
     
