@@ -28,7 +28,6 @@ def func(_input, _input2, _output, _reltion, _replaceOLD, _replaceNEW, _replace2
         __output = __output.replace(_replace2OLD, _replace2NEW)
         
     f = open(_output, 'w')
-    print(_output)
     f.write(__output + _StringAddOn)
     f.close()
     
