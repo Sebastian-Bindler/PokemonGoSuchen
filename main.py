@@ -4,19 +4,20 @@ Created on Fri Feb 21 21:48:58 2025
 
 @author: Sebi
 """
-import shutil
-import os
+names = ['sebipwned', 'edwardxelric', 'perlibug', 'bwwl']
 
 from inc import sebipwned
+from inc import edwardxelric
+from inc import func
 
 if __name__ == '__main__': 
     
     
+    for i in names:
+        func.rm(i)
     
-    
-    with open('input/sebipwned/hundo.txt','r') as file:
-        hundoSebi = " ".join(line.rstrip() for line in file)
-        print(hundoSebi)
+    '''
+   
     with open('input/edwardxelric/hundo.txt','r') as file:
         hundoEdward = " ".join(line.rstrip() for line in file)
         print(hundoEdward)
@@ -26,10 +27,7 @@ if __name__ == '__main__':
     with open('input/bwwl/hundo.txt','r') as file:
         hundoBwwl = " ".join(line.rstrip() for line in file)
         print(hundoPerlina)
-        
-    #with open('input/sebipwned/candy.txt','r') as file:
-        candySebi = " ".join(line.rstrip() for line in file)
-        print(candySebi)
+  
     with open('input/edwardxelric/candy.txt','r') as file:
         candyEdward = " ".join(line.rstrip() for line in file)
         print(candyEdward)
@@ -40,9 +38,6 @@ if __name__ == '__main__':
         candyBwwl = " ".join(line.rstrip() for line in file)
         print(candyBwwl)
         
-    with open('input/sebipwned/lucky.txt','r') as file:
-        luckySebi = " ".join(line.rstrip() for line in file)
-        print(luckySebi)
     with open('input/edwardxelric/lucky.txt','r') as file:
         luckyEdward = " ".join(line.rstrip() for line in file)
         print(luckyEdward)
@@ -65,7 +60,7 @@ if __name__ == '__main__':
     with open('input/relation/ratandfish.txt','r') as file:
         ratandfish = " ".join(line.rstrip() for line in file)
         print(ratandfish)
-    #with open('input/relation/luckyCheck.txt','r') as file:
+    with open('input/relation/luckyCheck.txt','r') as file:
         luckyCheck = " ".join(line.rstrip() for line in file)
         print(luckyCheck)
     with open('input/relation/level1.txt','r') as file:
@@ -73,22 +68,14 @@ if __name__ == '__main__':
         print(level1)
     with open('input/relation/countCandyXL.txt','r') as file:
         countCandyXL = " ".join(line.rstrip() for line in file)
-        print(countCandyXL)    
-        
+        print(countCandyXL)          
     with open('input/relation/disableDE.txt','r') as file:
         disableDE = " ".join(line.rstrip() for line in file)
         print(disableDE) 
     with open('input/relation/disableEN.txt','r') as file:
         disableEN = " ".join(line.rstrip() for line in file)
         print(disableEN)
-        
-        
-        
-        
-        
-    with open('input/sebipwned/xxl.txt','r') as file:
-        xxlSebi = " ".join(line.rstrip() for line in file)
-        print(xxlSebi)
+ 
     with open('input/edwardxelric/xxl.txt','r') as file:
         xxlEdward = " ".join(line.rstrip() for line in file)
         print(xxlEdward)
@@ -100,9 +87,6 @@ if __name__ == '__main__':
         print(xxlBwwl)        
         
         
-    with open('input/sebipwned/xxs.txt','r') as file:
-        xxsSebi = " ".join(line.rstrip() for line in file)
-        print(xxsSebi)
     with open('input/edwardxelric/xxs.txt','r') as file:
         xxsEdward = " ".join(line.rstrip() for line in file)
         print(xxsEdward) 
@@ -116,54 +100,29 @@ if __name__ == '__main__':
     with open('input/perlibug/level1.txt','r') as file:
         level1Perlina = " ".join(line.rstrip() for line in file)
         print(level1Perlina)
-        
+       
     shutil.rmtree('output/sebipwned')
     os.mkdir("output/sebipwned")
     os.mkdir("output/sebipwned/check")
-    os.mkdir("output/sebipwned/test")
+    os.mkdir("output/sebipwned/trade")
     shutil.rmtree('output/edwardxelric')
     os.mkdir("output/edwardxelric")
     shutil.rmtree('output/perlibug')
     os.mkdir("output/perlibug")
     shutil.rmtree('output/bwwl')
     os.mkdir("output/bwwl")
-        
+      '''   
         
 #Sebi
 
     sebipwned.main()
+    #edwardxelric.main()
+    
    
-    
-    
-    
-    f = open( 'output/sebipwned/perlina.txt', 'w' )
-    f.write(hundoPerlina + "," + luckyPerlina + disableDE)
-    f.close()
-    f = open( 'output/sebipwned/bwwl.txt', 'w' )
-    f.write(hundoBwwl + "," + luckyBwwl + disableDE)
-    f.close()
-    f = open( 'output/sebipwned/eddy.txt', 'w' )
-    f.write(luckyEdward + "," + hundoEdward + disableDE)
-    f.close()
-
-    
-    f = open( 'output/sebipwned/xxleddy.txt', 'w' )
-    f.write(xxlEdward + "&XXL&!getauscht")
-    f.close()
-    f = open( 'output/sebipwned/xxseddy.txt', 'w' )
-    f.write(xxsEdward + "&XXS&!getauscht")
-    f.close()
-    f = open( 'output/sebipwned/nontag.txt', 'w' )
-    f.write("!#")
-    f.close()
-    f = open( 'output/sebipwned/perlinalevel1.txt', 'w' )
-    f.write(level1Perlina + disableDE + level1)
-    f.close()
-
 
     
  #Edward
-
+'''
     f = open( 'output/edwardxelric/1Hundo.txt', 'w' )
     f.write(hundo)
     f.close()
@@ -179,27 +138,21 @@ if __name__ == '__main__':
     f.write(ratandfish)
     f.close()
     
-    f = open( 'output/edwardxelric/5LuckySebi.txt', 'w' )
-    f.write(luckySebi + disableDE)
-    f.close()
+    #f = open( 'output/edwardxelric/5LuckySebi.txt', 'w' )
+    #f.write(luckySebi + disableDE)
+    #f.close()
     
     f = open( 'output/edwardxelric/6Trade.txt', 'w' )
     f.write(candyEdward + disableDE)
     f.close()
     
-    f = open( 'output/edwardxelric/7HundoTrade.txt', 'w' )
-    f.write(hundoSebi + disableDE)
-    f.close()
+    #f = open( 'output/edwardxelric/7HundoTrade.txt', 'w' )
+    #f.write(hundoSebi + disableDE)
+    #f.close()
     
     f = open( 'output/edwardxelric/8Perlina.txt', 'w' )
     f.write(hundoPerlina + "," + luckyPerlina + disableDE)
     f.close()
-
-    """
-    f = open( 'output/edwardxelric/7PvpTrade.txt', 'w' )
-    f.write(pvpDE + disableDE)
-    f.close()
-    """
 	
     f = open( 'output/edwardxelric/8LuckyCheck.txt', 'w' )
     f.write(luckyEdward + luckyCheck)
@@ -232,28 +185,28 @@ if __name__ == '__main__':
     f.write(xxsEdward + "&XXS")
     f.close()
     f = open( 'output/edwardxelric/15XXLSebi.txt', 'w' )
-    f.write(xxlSebi + "&XXL&!getauscht")
+    #f.write(xxlSebi + "&XXL&!getauscht")
     f.close()
     f = open( 'output/edwardxelric/16XXSSebi.txt', 'w' )
-    f.write(xxsSebi + "&XXS&!getauscht")
+    #f.write(xxsSebi + "&XXS&!getauscht")
     f.close()
-    
-    f = open( 'output/perlibug/KlausiesHundoAndLucky.txt', 'w' )
-    f.write(hundoSebi + "," + luckySebi + disableEN)
-    f.close()
+  
+    #f = open( 'output/perlibug/KlausiesHundoAndLucky.txt', 'w' )
+    #f.write(hundoSebi + "," + luckySebi + disableEN)
+    #f.close()
     
     f = open( 'output/perlibug/EdwardHundoAndLucky.txt', 'w' )
     f.write(hundoEdward + "," + luckyEdward + disableEN)
     f.close()
     
     f = open( 'output/bwwl/KlausiesHundoAndLucky.txt', 'w' )
-    f.write(hundoSebi + "," + luckySebi + disableEN)
+    #f.write(hundoSebi + "," + luckySebi + disableEN)
     f.close()
     
     f = open( 'output/bwwl/EdwardHundoAndLucky.txt', 'w' )
     f.write(hundoEdward + "," + luckyEdward + disableEN)
     f.close()
-    
+  '''    
 
     
     
