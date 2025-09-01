@@ -18,8 +18,8 @@ modules = {
 }
 
 if __name__ == '__main__':
-    for name in names:
-        func.rm(name)
+    #for name in names:
+    func.rm(names)
 
     for name in names:
         modules[name].main()

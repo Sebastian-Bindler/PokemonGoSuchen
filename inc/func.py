@@ -33,10 +33,23 @@ def func(_input, _input2, _output, _reltion, _replaceOLD, _replaceNEW, _replace2
     
     
 def rm(_name):
-    shutil.rmtree('output/' + _name + '')
-    os.mkdir('output/' + _name + '')
-    os.mkdir('output/' + _name + '/check')
-    os.mkdir('output/' + _name + '/trade')
+    for name in _name:
+        shutil.rmtree('output/' + name + '')
+        os.mkdir('output/' + name + '')
+        os.mkdir('output/' + name + '/check')
+        os.mkdir('output/' + name + '/trade')
+    
+    base_dir = 'output'
+    
+    for name in _name:
+            user_dir = os.path.join(base_dir, name)
+            os.makedirs(user_dir, exist_ok=True)
+    
+            for other_name in _name:
+                if other_name != name:
+                    sub_dir = os.path.join(user_dir, other_name)
+                    os.makedirs(sub_dir, exist_ok=True)
+
     
 if __name__ == "__main__":
     pass
