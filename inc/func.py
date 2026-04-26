@@ -34,7 +34,8 @@ def func(_input, _input2, _output, _reltion, _replaceOLD, _replaceNEW, _replace2
     
 def rm(_name):
     for name in _name:
-        shutil.rmtree('output/' + name + '')
+        if os.path.exists('output/' + name):
+            shutil.rmtree('output/' + name + '')
         os.mkdir('output/' + name + '')
         os.mkdir('output/' + name + '/check')
         os.mkdir('output/' + name + '/trade')
